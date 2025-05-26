@@ -1,5 +1,6 @@
 
 import { Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -30,7 +31,15 @@ export const Footer = () => {
             </a>
           </div>
           
-          <div className="text-center">
+          <div className="text-center space-y-2">
+            <div className="flex items-center justify-center space-x-4">
+              <Link 
+                to="/disclaimer" 
+                className="text-gray-400 hover:text-crypto-green transition-colors text-sm underline"
+              >
+                Disclaimer
+              </Link>
+            </div>
             <p className="text-gray-400 text-sm">
               © 2025 AryxnTrades. All rights reserved.
             </p>
