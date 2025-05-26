@@ -1,4 +1,5 @@
 
+import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { SocialProofBar } from "@/components/SocialProofBar";
 import { ResultsSection } from "@/components/ResultsSection";
@@ -10,13 +11,22 @@ import { PricingSection } from "@/components/PricingSection";
 const Index = () => {
   return (
     <div className="min-h-screen bg-crypto-gradient">
+      <Navigation />
       <HeroSection />
       <SocialProofBar />
-      <ResultsSection />
+      <div id="results">
+        <ResultsSection />
+      </div>
       <TradingResultsGallery />
-      <TestimonialsSection />
-      <FeaturesSection />
-      <PricingSection />
+      <div id="testimonials">
+        <TestimonialsSection />
+      </div>
+      <div id="features">
+        <FeaturesSection />
+      </div>
+      <div id="pricing">
+        <PricingSection />
+      </div>
     </div>
   );
 };
