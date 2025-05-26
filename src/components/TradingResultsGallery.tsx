@@ -74,29 +74,16 @@ export const TradingResultsGallery = () => {
                 {category.images.map((image, imgIndex) => (
                   <Card key={imgIndex} className="bg-card-gradient backdrop-blur-sm border-gray-700 p-4 hover:scale-105 transition-all duration-300">
                     <div className="space-y-4">
-                      {image.src ? (
-                        <div className="w-full h-48 md:h-56 bg-gray-800 rounded-lg overflow-hidden">
-                          <img 
-                            src={image.src} 
-                            alt={image.alt}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                      ) : (
-                        <div className="w-full h-48 md:h-56 bg-gray-800 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-600">
-                          <div className="text-center text-gray-400">
-                            <p className="text-sm font-medium">{image.placeholder}</p>
-                            <p className="text-xs mt-1">{image.alt}</p>
-                          </div>
-                        </div>
-                      )}
+                      <div className="w-full h-48 md:h-56 bg-gray-800 rounded-lg overflow-hidden">
+                        <img 
+                          src={image.src} 
+                          alt={image.alt}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
                       
                       <div className="text-center">
-                        {image.caption ? (
-                          <p className="text-sm text-crypto-green font-semibold">{image.caption}</p>
-                        ) : (
-                          <p className="text-sm text-gray-300">Click to view full size</p>
-                        )}
+                        <p className="text-sm text-crypto-green font-semibold">{image.caption}</p>
                       </div>
                     </div>
                   </Card>
