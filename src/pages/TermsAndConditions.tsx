@@ -1,4 +1,3 @@
-
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 
@@ -15,8 +14,8 @@ const TermsAndConditions = () => {
           <div className="space-y-8 text-gray-300">
             <section>
               <h2 className="text-xl font-bold text-white mb-4">Terms and Conditions of Service</h2>
-              <p className="mb-2">Effective Date: [Current Date]</p>
-              <p className="mb-4">Last Updated: [Current Date]</p>
+              <p className="mb-2">Effective Date: May 26, 2025</p>
+              <p className="mb-4">Last Updated: May 26, 2025</p>
             </section>
 
             <section>
