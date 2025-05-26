@@ -10,14 +10,14 @@ export const TradingResultsGallery = () => {
       description: "Screenshots of successful daily trades",
       images: [
         { 
-          src: "/lovable-uploads/d121c0b7-6209-416a-91d1-ad5a9158a82e.png",
-          alt: "Account showing $1355.80 total P/L",
-          caption: "Total P/L: $1355.80"
-        },
-        { 
           src: "/lovable-uploads/0d6cd3ed-f030-4ba8-82bf-ed96f34c886d.png",
           alt: "evanklife SNQ trade showing $1535.64 profit",
           caption: "75 points 1 trade - $1535.64"
+        },
+        { 
+          src: "/lovable-uploads/d121c0b7-6209-416a-91d1-ad5a9158a82e.png",
+          alt: "Account showing $1355.80 total P/L",
+          caption: "Total P/L: $1355.80"
         },
         { 
           src: "/lovable-uploads/478635df-89b6-4b98-9a22-07497c469d0b.png",
@@ -31,9 +31,21 @@ export const TradingResultsGallery = () => {
       icon: DollarSign,
       description: "Weekly P&L summaries and progress",
       images: [
-        { placeholder: "Weekly summary #1", alt: "Week 1 performance" },
-        { placeholder: "Weekly summary #2", alt: "Week 2 performance" },
-        { placeholder: "Weekly summary #3", alt: "Week 3 performance" }
+        { 
+          src: "/lovable-uploads/faf64ae8-a863-4eb8-8aaa-b03dd416e5ca.png",
+          alt: "tahir's unrealized PNL showing 34,340.67 USDT profit",
+          caption: "Unrealized PNL: 34,340.67 USDT (+492.57%)"
+        },
+        { 
+          src: "/lovable-uploads/18c88b1d-668b-4a97-ad99-0b49adba86cf.png",
+          alt: "theking01753's portfolio showing $16,553.25 with $8,372.03 gains",
+          caption: "Portfolio: $16,553.25 (+$8,372.03, +102.33%)"
+        },
+        { 
+          src: "/lovable-uploads/bd9612e4-c8b7-44f1-91a0-6e0e85681fc5.png",
+          alt: "Jordy's SPY options trade showing $344.00 profit",
+          caption: "SPY $536 Call: +$344.00 (+59.72%)"
+        }
       ]
     }
   ];
