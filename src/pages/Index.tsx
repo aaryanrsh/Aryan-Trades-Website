@@ -7,6 +7,7 @@ import { TradingResultsGallery } from "@/components/TradingResultsGallery";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { PricingSection } from "@/components/PricingSection";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -27,6 +28,7 @@ const Index = () => {
       <div id="pricing">
         <PricingSection />
       </div>
+      <Footer />
     </div>
   );
 };
