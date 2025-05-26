@@ -30,7 +30,7 @@ export const PricingSection = () => {
                 {[
                   "📊 Limited Trade Commentary",
                   "💬 Basic Community Access", 
-                  "📚 Basic Educational Content"
+                  "📈 1 Signal a Month"
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <span className="text-gray-500">✅</span>
