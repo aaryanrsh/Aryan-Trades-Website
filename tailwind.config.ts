@@ -66,7 +66,9 @@ export default {
 				crypto: {
 					navy: '#0f1729',
 					purple: '#1a1a2e',
-					green: '#00ff88',
+					green: '#22c55e',
+					'green-dark': '#16a34a',
+					'green-light': '#4ade80',
 					gold: '#ffd700',
 					dark: '#0a0a0a'
 				}
@@ -98,8 +100,8 @@ export default {
 					'50%': { transform: 'translateY(-20px)' }
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 20px rgba(0, 255, 136, 0.3)' },
-					'50%': { boxShadow: '0 0 30px rgba(0, 255, 136, 0.6)' }
+					'0%, 100%': { boxShadow: '0 0 20px rgba(34, 197, 94, 0.3)' },
+					'50%': { boxShadow: '0 0 30px rgba(34, 197, 94, 0.6)' }
 				}
 			},
 			animation: {
@@ -110,7 +112,7 @@ export default {
 			},
 			backgroundImage: {
 				'crypto-gradient': 'linear-gradient(135deg, #0f1729 0%, #1a1a2e 50%, #16213e 100%)',
-				'green-gradient': 'linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)',
+				'green-gradient': 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)',
 				'card-gradient': 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)'
 			}
 		}
