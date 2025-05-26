@@ -75,7 +75,7 @@ export const PricingSection = () => {
                   "💬 Active, No-Fluff Discussions",
                   "📚 Educational Content & Analysis",
                   "🤝 Supportive Trader Network",
-                  "📈 Market Structure Insights",
+                  "📈 1-2 Signals a Day",
                   "⚡ Live Alerts & Breakdowns"
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
