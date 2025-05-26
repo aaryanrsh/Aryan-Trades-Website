@@ -13,6 +13,15 @@ export const HeroSection = () => {
       </div>
       
       <div className="max-w-4xl mx-auto text-center z-10">
+        {/* Logo */}
+        <div className="flex justify-center mb-6">
+          <img 
+            src="/lovable-uploads/680d64f7-7755-47ec-97af-19f34bbb0c9e.png" 
+            alt="Aryan Trades Logo" 
+            className="h-16 md:h-20 w-auto"
+          />
+        </div>
+
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 leading-tight px-4">
           Welcome to <span className="text-crypto-green">Aryan Trades</span> Premium 🔥
         </h1>

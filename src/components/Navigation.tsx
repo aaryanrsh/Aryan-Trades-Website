@@ -11,14 +11,9 @@ export const Navigation = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <img 
-              src="/lovable-uploads/680d64f7-7755-47ec-97af-19f34bbb0c9e.png" 
-              alt="Aryan Trades Logo" 
-              className="h-10 w-auto"
-            />
+          <div className="flex items-center">
             <span className="text-xl md:text-2xl font-bold text-crypto-green">
-              Aryan Trades Premium
+              Aryan Trades
             </span>
           </div>
 
