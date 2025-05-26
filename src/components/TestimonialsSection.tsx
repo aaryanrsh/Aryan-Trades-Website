@@ -5,22 +5,22 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Jake M.",
-      result: "+$6,400 first month",
-      quote: "I was skeptical at first, but after making $6,400 in my first month, I'm a believer. These guys know what they're doing. The Discord is active 24/7 and the signals are incredibly accurate.",
-      initials: "JM"
-    },
-    {
-      name: "Sarah K.",
-      result: "+$18,950 in 8 weeks", 
-      quote: "Best $47 I've ever spent. Made it back in the first day and haven't looked back since. The community is amazing and the results speak for themselves.",
-      initials: "SK"
-    },
-    {
-      name: "Marcus R.",
-      result: "+$31,200 in 3 months",
-      quote: "I've tried other signal groups before but nothing comes close to this. The win rate is insane and the risk management is on point. Finally found something that actually works.",
+      name: "Mike R.",
+      result: "Consistent profitable trades",
+      quote: "The real-time commentary and daily recaps have completely changed my trading approach. Aryan's insights on market structure are next level. Finally found a community that's actually focused on results.",
       initials: "MR"
+    },
+    {
+      name: "Jessica T.",
+      result: "Improved win rate significantly", 
+      quote: "Best trading community I've joined. The educational content is incredible and the no-fluff discussions keep you sharp. Learning about supply/demand concepts has been a game changer.",
+      initials: "JT"
+    },
+    {
+      name: "David K.",
+      result: "Leveled up trading skills",
+      quote: "The supportive network here is amazing. No ego, just traders helping each other grow. The daily trade recaps help me understand setups I would have missed on my own.",
+      initials: "DK"
     }
   ];
 
@@ -28,7 +28,7 @@ export const TestimonialsSection = () => {
     <section className="py-20 px-4 bg-black/20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
-          What Our VIP Members Are Saying
+          What Our Premium Members Are Saying
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">

@@ -1,38 +1,38 @@
 
-import { Target, Phone, ChartLine, Users, Shield, TrendingUp } from "lucide-react";
+import { BarChart3, MessageCircle, BookOpen, Users, TrendingUp, Zap } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export const FeaturesSection = () => {
   const features = [
     {
-      icon: Target,
-      title: "Daily High-Probability Signals",
-      description: "3-5 carefully selected trades per day with exact entry/exit points"
+      icon: Zap,
+      title: "Real-Time Trade Commentary",
+      description: "Stay ahead with alerts, entries, exits, and breakdowns shared live"
     },
     {
-      icon: Phone,
-      title: "Instant Mobile Alerts", 
-      description: "Never miss a profitable trade with push notifications"
+      icon: BarChart3,
+      title: "Daily Trade Recaps", 
+      description: "Review key setups, wins, and lessons from each trading day to sharpen your edge"
     },
     {
-      icon: ChartLine,
-      title: "Live Market Analysis",
-      description: "Real-time chart breakdowns and market insights from pro traders"
+      icon: MessageCircle,
+      title: "Active, No-Fluff Discussions",
+      description: "Talk setups, share insights, and break down the market in real time"
+    },
+    {
+      icon: BookOpen,
+      title: "Educational Content",
+      description: "Learn how and why we take trades — from supply/demand to liquidity and market structure"
     },
     {
       icon: Users,
-      title: "VIP Community Access",
-      description: "Connect with 12,000+ successful traders sharing strategies and wins"
-    },
-    {
-      icon: Shield,
-      title: "Risk Management Guide",
-      description: "Learn proper position sizing and stop-loss strategies"
+      title: "Supportive Trader Network",
+      description: "No ego, just traders helping traders. Ask questions, get feedback, and grow"
     },
     {
       icon: TrendingUp,
-      title: "Performance Tracking",
-      description: "Track your profits with our member-exclusive tools"
+      title: "Level Up Your Trading",
+      description: "Build consistent winning strategies and develop your trading edge"
     }
   ];
 
@@ -40,7 +40,7 @@ export const FeaturesSection = () => {
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
-          Everything You Get Inside Our VIP Discord
+          What to Expect in Aryan Trades Premium
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
