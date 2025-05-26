@@ -6,8 +6,8 @@ import { useState } from "react";
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const scrollToPricing = () => {
-    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+  const redirectToWhop = () => {
+    window.open('https://whop.com/aryantrades/?a=jashimaryan', '_blank');
     setIsMenuOpen(false);
   };
 
@@ -39,7 +39,7 @@ export const Navigation = () => {
             <Button 
               size="sm" 
               className="bg-green-gradient text-black font-bold hover:scale-105 transition-all duration-300"
-              onClick={scrollToPricing}
+              onClick={redirectToWhop}
             >
               Join Now
             </Button>
@@ -91,7 +91,7 @@ export const Navigation = () => {
               <Button 
                 size="sm" 
                 className="bg-green-gradient text-black font-bold w-full"
-                onClick={scrollToPricing}
+                onClick={redirectToWhop}
               >
                 Join Now
               </Button>

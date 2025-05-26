@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export const PricingSection = () => {
-  const scrollToPricing = () => {
-    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+  const redirectToWhop = () => {
+    window.open('https://whop.com/aryantrades/?a=jashimaryan', '_blank');
   };
 
   return (
@@ -42,7 +42,7 @@ export const PricingSection = () => {
               <Button 
                 size="lg" 
                 className="w-full bg-gray-600 text-white font-bold text-lg md:text-xl py-4 md:py-6 rounded-lg hover:bg-gray-500 transition-all duration-300"
-                onClick={scrollToPricing}
+                onClick={redirectToWhop}
               >
                 JOIN FREE
               </Button>
@@ -88,7 +88,7 @@ export const PricingSection = () => {
               <Button 
                 size="lg" 
                 className="w-full bg-green-gradient text-black font-bold text-lg md:text-xl py-4 md:py-6 rounded-lg hover:scale-105 transition-all duration-300 animate-glow"
-                onClick={scrollToPricing}
+                onClick={redirectToWhop}
               >
                 JOIN ARYAN TRADES PREMIUM
               </Button>
