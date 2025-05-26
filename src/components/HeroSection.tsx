@@ -2,8 +2,8 @@
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
-  const redirectToWhop = () => {
-    window.open('https://whop.com/aryantrades/?a=jashimaryan', '_blank');
+  const scrollToPricing = () => {
+    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -43,7 +43,7 @@ export const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-green-gradient text-black font-bold text-base md:text-lg px-6 md:px-12 py-3 md:py-6 rounded-lg hover:scale-105 transition-all duration-300 animate-glow w-full sm:w-auto"
-            onClick={redirectToWhop}
+            onClick={scrollToPricing}
           >
             JOIN ARYAN TRADES PREMIUM
           </Button>
