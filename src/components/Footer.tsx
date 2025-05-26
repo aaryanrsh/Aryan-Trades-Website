@@ -39,6 +39,12 @@ export const Footer = () => {
               >
                 Disclaimer
               </Link>
+              <Link 
+                to="/terms" 
+                className="text-gray-400 hover:text-crypto-green transition-colors text-sm underline"
+              >
+                Terms & Conditions
+              </Link>
             </div>
             <p className="text-gray-400 text-sm">
               © 2025 AryxnTrades. All rights reserved.
