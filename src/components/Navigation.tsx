@@ -6,6 +6,11 @@ import { useState } from "react";
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToPricing = () => {
+    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-gray-800">
       <div className="max-w-6xl mx-auto px-4">
@@ -34,6 +39,7 @@ export const Navigation = () => {
             <Button 
               size="sm" 
               className="bg-green-gradient text-black font-bold hover:scale-105 transition-all duration-300"
+              onClick={scrollToPricing}
             >
               Join Now
             </Button>
@@ -85,7 +91,7 @@ export const Navigation = () => {
               <Button 
                 size="sm" 
                 className="bg-green-gradient text-black font-bold w-full"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={scrollToPricing}
               >
                 Join Now
               </Button>

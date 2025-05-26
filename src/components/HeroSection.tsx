@@ -2,6 +2,10 @@
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
+  const scrollToPricing = () => {
+    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center px-4 pt-16 overflow-hidden">
       {/* Floating crypto symbols */}
@@ -39,6 +43,7 @@ export const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-green-gradient text-black font-bold text-base md:text-lg px-6 md:px-12 py-3 md:py-6 rounded-lg hover:scale-105 transition-all duration-300 animate-glow w-full sm:w-auto"
+            onClick={scrollToPricing}
           >
             JOIN ARYAN TRADES PREMIUM
           </Button>
