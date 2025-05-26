@@ -16,9 +16,9 @@ export const HeroSection = () => {
         {/* Logo */}
         <div className="flex justify-center mb-6">
           <img 
-            src="/lovable-uploads/680d64f7-7755-47ec-97af-19f34bbb0c9e.png" 
+            src="/lovable-uploads/a8a727ed-c8f4-4201-babf-8695587d67c0.png" 
             alt="Aryan Trades Logo" 
-            className="h-16 md:h-20 w-auto"
+            className="h-32 md:h-40 w-auto"
           />
         </div>
 
