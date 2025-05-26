@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,9 +18,9 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-xl md:text-2xl font-bold text-crypto-green">
+            <Link to="/" className="text-xl md:text-2xl font-bold text-crypto-green hover:opacity-80 transition-opacity">
               Aryan Trades
-            </span>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
