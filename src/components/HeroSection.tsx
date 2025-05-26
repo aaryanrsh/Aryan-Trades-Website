@@ -6,30 +6,30 @@ export const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
       {/* Floating crypto symbols */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 text-4xl animate-float">₿</div>
-        <div className="absolute top-40 right-20 text-3xl animate-float" style={{ animationDelay: '1s' }}>Ξ</div>
-        <div className="absolute bottom-40 left-20 text-2xl animate-float" style={{ animationDelay: '2s' }}>₳</div>
-        <div className="absolute bottom-20 right-10 text-3xl animate-float" style={{ animationDelay: '3s' }}>◎</div>
+        <div className="absolute top-20 left-4 md:left-10 text-3xl md:text-4xl animate-float">₿</div>
+        <div className="absolute top-40 right-4 md:right-20 text-2xl md:text-3xl animate-float" style={{ animationDelay: '1s' }}>Ξ</div>
+        <div className="absolute bottom-40 left-4 md:left-20 text-xl md:text-2xl animate-float" style={{ animationDelay: '2s' }}>₳</div>
+        <div className="absolute bottom-20 right-4 md:right-10 text-2xl md:text-3xl animate-float" style={{ animationDelay: '3s' }}>◎</div>
       </div>
       
       <div className="max-w-4xl mx-auto text-center z-10">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight px-4">
           Welcome to <span className="text-crypto-green">Aryan Trades</span> Premium 🔥
         </h1>
         
-        <h2 className="text-xl md:text-2xl text-gray-300 mb-4 font-medium">
+        <h2 className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 font-medium px-4">
           Join a Focused, High-Level Trading Community Built for Traders Who Want Results
         </h2>
         
-        <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
+        <p className="text-base md:text-lg text-gray-400 mb-8 max-w-2xl mx-auto px-4">
           Whether you're new or experienced, this is where you level up. 
           No ego, just traders helping traders build, lock in, and keep stacking wins together.
         </p>
         
-        <div className="space-y-4">
+        <div className="space-y-4 px-4">
           <Button 
             size="lg" 
-            className="bg-green-gradient text-black font-bold text-xl px-12 py-6 rounded-lg hover:scale-105 transition-all duration-300 animate-glow"
+            className="bg-green-gradient text-black font-bold text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-lg hover:scale-105 transition-all duration-300 animate-glow w-full sm:w-auto"
           >
             JOIN ARYAN TRADES PREMIUM
           </Button>
@@ -40,7 +40,7 @@ export const HeroSection = () => {
           
           <div className="flex items-center justify-center gap-2 text-crypto-green font-medium">
             <span className="text-xl">💰</span>
-            <span>Let's get to work and keep stacking wins</span>
+            <span className="text-sm md:text-base">Let's get to work and keep stacking wins</span>
           </div>
         </div>
       </div>

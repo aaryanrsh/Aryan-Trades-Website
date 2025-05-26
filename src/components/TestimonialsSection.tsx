@@ -25,15 +25,15 @@ export const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-black/20">
+    <section className="py-12 md:py-20 px-4 bg-black/20">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12 md:mb-16">
           What Our Premium Members Are Saying
         </h2>
         
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="bg-card-gradient backdrop-blur-sm border-gray-700 p-8">
+            <Card key={index} className="bg-card-gradient backdrop-blur-sm border-gray-700 p-6 md:p-8">
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <Avatar className="h-12 w-12">
@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
                   </div>
                 </div>
                 
-                <p className="text-gray-300 italic">"{testimonial.quote}"</p>
+                <p className="text-gray-300 italic text-sm md:text-base">"{testimonial.quote}"</p>
               </div>
             </Card>
           ))}
