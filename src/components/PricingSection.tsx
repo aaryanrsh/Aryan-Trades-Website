@@ -28,7 +28,7 @@ export const PricingSection = () => {
               
               <div className="space-y-3 text-left">
                 {[
-                  "📊 Limited Trade Commentary",
+                  "📊 Limited Access to Content",
                   "💬 Basic Community Access", 
                   "📈 1 Signal a Month"
                 ].map((feature, index) => (
