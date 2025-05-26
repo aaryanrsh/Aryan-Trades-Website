@@ -18,7 +18,7 @@ export const HeroSection = () => {
           <img 
             src="/lovable-uploads/a8a727ed-c8f4-4201-babf-8695587d67c0.png" 
             alt="Aryan Trades Logo" 
-            className="h-32 md:h-40 w-auto"
+            className="h-40 md:h-48 w-auto"
           />
         </div>
 
