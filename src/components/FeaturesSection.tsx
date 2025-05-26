@@ -1,5 +1,5 @@
 
-import { Target, Phone, ChartLine, Users, Shield, Graph } from "lucide-react";
+import { Target, Phone, ChartLine, Users, Shield, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 export const FeaturesSection = () => {
@@ -30,7 +30,7 @@ export const FeaturesSection = () => {
       description: "Learn proper position sizing and stop-loss strategies"
     },
     {
-      icon: Graph,
+      icon: TrendingUp,
       title: "Performance Tracking",
       description: "Track your profits with our member-exclusive tools"
     }
