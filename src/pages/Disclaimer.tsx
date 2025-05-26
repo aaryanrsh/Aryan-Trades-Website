@@ -108,7 +108,7 @@ const Disclaimer = () => {
             <section>
               <h3 className="text-lg font-bold text-crypto-green mb-3">Contact Information</h3>
               <p className="mb-4">For questions regarding this disclaimer or our services, contact us at:</p>
-              <p className="text-crypto-green font-semibold">support@aryantrades.com</p>
+              <p className="text-crypto-green font-semibold">jashimaryan@gmail.com</p>
             </section>
 
             <div className="bg-red-900/30 border border-red-500 rounded-lg p-6 mt-8">
