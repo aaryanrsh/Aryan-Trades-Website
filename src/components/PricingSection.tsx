@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -62,10 +61,10 @@ export const PricingSection = () => {
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-4">Premium Discord Access</h3>
                 <div className="flex items-baseline justify-center gap-2">
                   <span className="text-2xl md:text-3xl font-bold text-gray-500 line-through">$200</span>
-                  <span className="text-3xl md:text-5xl font-bold text-crypto-green">$120</span>
+                  <span className="text-3xl md:text-5xl font-bold text-crypto-green">$100</span>
                   <span className="text-lg text-gray-400">/month</span>
                 </div>
-                <div className="text-crypto-green mt-2 font-medium">Save $80/month!</div>
+                <div className="text-crypto-green mt-2 font-medium">Save $100/month!</div>
               </div>
               
               <div className="space-y-3 text-left">
