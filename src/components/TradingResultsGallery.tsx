@@ -54,7 +54,7 @@ export const TradingResultsGallery = () => {
     <section className="py-12 md:py-20 px-4 bg-black/20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12 md:mb-16">
-          Real Results From Our Community
+          Verified Trading Results
         </h2>
         
         <div className="space-y-12 md:space-y-16">

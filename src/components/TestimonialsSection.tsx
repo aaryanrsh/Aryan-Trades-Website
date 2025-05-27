@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
     <section className="py-12 md:py-20 px-4 bg-black/20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12 md:mb-16">
-          Real Results From Our Premium Members
+          What Our Members Say
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
