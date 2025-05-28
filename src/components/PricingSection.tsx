@@ -102,7 +102,7 @@ export const PricingSection = () => {
             </div>
           </Card>
 
-          {/* Lifetime Tier */}
+          {/* Yearly Tier */}
           <Card className="bg-card-gradient backdrop-blur-sm border-yellow-500 p-8 md:p-12 relative">
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
               <span className="bg-yellow-500 text-black px-4 py-2 rounded-full text-sm font-bold">
@@ -112,11 +112,12 @@ export const PricingSection = () => {
             
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl md:text-2xl font-bold text-white mb-4">Lifetime Access</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-4">Yearly Access</h3>
                 <div className="flex items-baseline justify-center gap-2">
                   <span className="text-3xl md:text-5xl font-bold text-yellow-500">$999</span>
+                  <span className="text-lg text-gray-400">/year</span>
                 </div>
-                <div className="text-yellow-500 mt-2 font-medium">One-time payment • Forever access</div>
+                <div className="text-yellow-500 mt-2 font-medium">Save over $200 compared to monthly!</div>
               </div>
               
               <div className="space-y-3 text-left">
@@ -128,7 +129,7 @@ export const PricingSection = () => {
                   "🤝 Supportive Trader Network",
                   "📈 1-2 Signals a Day",
                   "⚡ Live Alerts & Breakdowns",
-                  "🔒 Lifetime Access - No Recurring Fees"
+                  "💰 12 Months of Premium Access"
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <span className="text-yellow-500">✅</span>
@@ -142,14 +143,14 @@ export const PricingSection = () => {
                 className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-bold text-lg md:text-xl py-4 md:py-6 rounded-lg hover:scale-105 transition-all duration-300"
                 onClick={redirectToWhop}
               >
-                GET LIFETIME ACCESS
+                GET YEARLY ACCESS
               </Button>
               
               <div className="space-y-2 text-sm text-gray-400">
-                <p>Instant Discord access • Never pay again</p>
+                <p>Instant Discord access • 12 months of premium</p>
                 <div className="flex items-center justify-center gap-2 text-yellow-500 font-medium">
-                  <span>♾️</span>
-                  <span className="text-sm md:text-base">Lifetime commitment to your trading success</span>
+                  <span>📅</span>
+                  <span className="text-sm md:text-base">One year of trading success at your fingertips</span>
                 </div>
               </div>
             </div>
