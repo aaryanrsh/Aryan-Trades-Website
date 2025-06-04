@@ -45,6 +45,12 @@ export const Footer = () => {
               >
                 Terms & Conditions
               </Link>
+              <Link 
+                to="/privacy" 
+                className="text-gray-400 hover:text-crypto-green transition-colors text-sm underline"
+              >
+                Privacy Policy
+              </Link>
             </div>
             <p className="text-gray-400 text-sm">
               © 2025 AryxnTrades. All rights reserved.
