@@ -1,6 +1,6 @@
-
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
@@ -84,6 +84,16 @@ const PrivacyPolicy = () => {
                   <li>Request a copy of your data</li>
                   <li>Object to certain processing activities</li>
                 </ul>
+                <p className="mt-4">
+                  To request data deletion, please visit our{" "}
+                  <Link 
+                    to="/data-deletion" 
+                    className="text-crypto-green hover:underline"
+                  >
+                    Data Deletion Request page
+                  </Link>
+                  {" "}for detailed instructions.
+                </p>
               </section>
 
               <section>
